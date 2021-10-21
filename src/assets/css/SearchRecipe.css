@@ -1,0 +1,216 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Lobster&family=Patrick+Hand&family=Patua+One&family=Play&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-image: url('../images/MainBG.jpeg');
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    background-position:right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.logo img{
+    top: -15px;
+    position:absolute;
+}
+
+.form{
+    position: relative;
+    text-align: center;
+    }
+.txtabovesearch{
+    padding: 10px;
+    position: relative;
+    font-family: 'Kalam', cursive;  
+    }
+input{
+    position: relative;
+    border-radius: 12px;
+    padding: 15px;
+    
+    }
+     
+input::placeholder{
+    font-family: 'Kalam', cursive;  
+    font-size: 18px;
+    color: black;
+    }
+.search button{
+    position: relative;
+    border:unset;
+    background-color: #ffc109d4;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+        
+    }
+    .logo img{
+        top: -15px;
+        position:absolute;
+       
+    }
+  
+/*  mobile */
+@media  (max-width: 767px) {
+    
+    .form{
+        display: grid;
+        top:155px;
+        grid-template-rows: 100px 50px 50px;
+    }
+
+    input{
+        top: 50px;
+        height: 45px;
+        width:300px;
+        background-color: unset;
+        font-size: 16px;
+    }
+    .search button{
+        top: 60px;
+        width: 300px;
+        height: 40px;
+
+    }
+    .txtabovesearch{
+        font-size: 25px;
+    }
+    .searcharea{
+       justify-content: center;
+        display: grid;
+    }
+    .logo img{
+        width: 250px;
+    }
+
+    
+
+}
+/* small screeen */
+@media  (min-width: 768px) and (max-width: 991px) {
+    
+    .form{
+        display: grid;
+        top:290px;
+        grid-template-rows: 150px 150px 150px;
+    }
+
+    input{
+        top: 10px;
+        height: 50px;
+        width:400px;
+        background-color: unset;
+        font-size: 20px;
+    }
+    input::placeholder{
+        font-family: 'Kalam', cursive;  
+        font-size: 20px;
+        }
+    .search button{
+        top: 30px;
+        width: 400px;
+        height: 50px;
+
+    }
+    .txtabovesearch{
+        font-size: 35px;
+    }
+    .searcharea{
+       justify-content: center;
+        display: grid;
+    }
+
+    .logo img{
+        width: 300px;
+    }
+
+}
+
+/* meduim screen */
+@media (min-width: 992px) {
+    .form{
+        display: grid;
+        top:250px;
+        grid-template-rows: 150px 150px 150px;
+    }
+
+    input{
+        top: 50px;
+        height: 50px;
+        width:400px;
+        background-color: unset;
+        font-size: 25px;
+    }
+    input::placeholder{
+        font-family: 'Kalam', cursive;  
+        font-size: 20px;
+        }
+    .search button{
+        top: 60px;
+        width: 400px;
+        height: 50px;
+
+    }
+    .txtabovesearch{
+        font-size: 35px;
+    }
+    .searcharea{
+       justify-content: center;
+        display: grid;
+    }
+
+    .logo img{
+        width: 350px;
+    }
+
+
+}
+
+
+/* large screen */
+@media  (min-width: 993px) and (max-width: 2000px) {
+    
+    .form{
+        display: grid;
+        top:180px;
+        grid-template-rows: 100px 100px 100px;
+    }
+
+    input{
+        top: 10px;
+        height: 60px;
+        width:460px;
+        background-color: unset;
+    }
+    input::placeholder{
+        font-family: 'Kalam', cursive;  
+        font-size: 20px;
+        }
+    .search button{
+        top: 35px;
+        width: 460px;
+        height: 60px;
+
+    }
+    .txtabovesearch{
+        font-size: 35px;
+    }
+    .searcharea{
+       justify-content: center;
+        display: grid;
+    }
+
+    .logo img{
+        width: 350px;
+    }
+
+
+}
+

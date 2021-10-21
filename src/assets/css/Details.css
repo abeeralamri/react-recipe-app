@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Lobster&family=Patrick+Hand&family=Patua+One&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.details img{
+    width: 430px;
+    height: 430px;
+    border-radius: 15px;    
+}
+
+.top{
+    text-align: center;
+
+}
+
+.nutrition{
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Yantramanav', sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+    
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px dashed #ddd;
+}
+      
+td{
+    font-size: 20px;
+}
+
+table{
+    padding: 25px;
+}
+    
+.ingtxt{
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+        
+}
+    
+.ingredient{
+    font-family: 'Yantramanav', sans-serif;
+}
+.ingred{
+    position: relative;
+}
+.ingred p{
+    position: absolute;
+    left: -50px;
+    bottom: 0.1px;
+    }
+    
+.ingred .icon{
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+    
+.headerbutton {
+    background-color: #ffc109d4;
+    border:unset;
+    border-radius: 12px;
+    font-size: 20px;
+} 
+
+
+/*  mobile */
+@media  (max-width: 767px) {
+    
+    .details{
+        margin: 15px;
+    }
+    .details img{
+        width: 320px;
+        height: 320px;
+        border-radius: 15px;
+    }
+
+    .top{
+       
+        margin-bottom: 30px;
+    
+    }
+    .nutrition{
+        margin-top: 100px;
+        display: block;
+        width: 320px;
+        height: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table{
+        width: 295px;
+      
+    }
+ 
+    .ingredient{
+        margin-left: 50px;
+        font-size: 20px;
+        font-family: 'Yantramanav', sans-serif;
+    }
+    .ingredient ul{
+        margin-top: 20px;
+    }
+
+    .ingred{
+        margin-left: 30px;
+        margin-bottom: 100px;
+        top: 60px;
+    }
+    .ingred .icon{
+        left: -25px;
+        bottom: 10px;
+    }
+    .headerbutton {
+        margin-left: auto;
+        margin-right: auto;
+        width: 180px;
+        height: 50px;
+        margin-top: 35px;
+        margin-bottom: 50px;
+        
+    } 
+
+    
+
+}
+/* small screeen */
+@media  (min-width: 768px) and (max-width: 991px) {
+    .details{
+        margin: 150px;
+    }
+   
+
+    .top{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    
+    }
+    .nutrition{
+        margin-top: 100px;
+        display: block;
+        width: 500px;
+        height: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+    .ingredient{
+        padding: 5px;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: 'Yantramanav', sans-serif;
+    }
+    .ingredient ul{
+        margin-top: 20px;
+    }
+
+    .ingred{
+        margin-bottom: 100px;
+        top: 60px;
+    }
+    .ingred .icon{
+        margin-left: 50px;
+        left: -77px;
+        bottom: 10px;
+    }
+    .headerbutton {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        
+    } 
+
+    
+    
+
+}
+
+/* meduim screen */
+@media (min-width: 992px) and (max-width:1220px) {
+    .details{
+        margin: 150px;
+    }
+    .details img{
+        margin-bottom: 50px;
+    }
+
+    .top{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    
+    }
+    .nutrition{
+        display: block;
+        width: 500px;
+        height: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .ingredient{
+        padding: 5px;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: 'Yantramanav', sans-serif;
+    }
+    .ingredient ul{
+        margin-top: 20px;
+    }
+
+    .ingred{
+        margin-bottom: 100px;
+        top: 60px;
+    }
+    .ingred .icon{
+        margin-left: 50px;
+        left: -77px;
+        bottom: 10px;
+    }
+    table{
+        width: 450px;
+        padding: 25px;  
+    }
+    .headerbutton {
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            height: 50px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        
+    } 
+
+    
+}
+/* large screen */
+@media  (min-width: 1221px) and (max-width: 1281px) {
+    .details{
+        margin: 150px;
+    }
+
+    .top{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    
+    }
+    .nutrition{
+        display: block;
+        width: 500px;
+        height: 430px;
+        margin-left: 140px;
+    }
+   
+    .ingredient{
+        padding: 5px;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: 'Yantramanav', sans-serif;
+    }
+    .ingredient ul{
+        margin-top: 20px;
+    }
+
+    .ingred{
+        margin-bottom: 100px;
+        top: 60px;
+    }
+    .ingred .icon{
+        margin-left: 50px;
+        left: -77px;
+        bottom: 10px;
+    }
+    table{
+    width: 500px;
+    padding: 25px;  
+    }
+    .headerbutton {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        
+    } 
+
+
+}
+/* more large screen */
+@media  (min-width: 1282px)  {
+    .details{
+        margin: 150px;
+    }
+    .details img{
+        margin-right: 150px;
+    }
+
+    .top{
+       
+        display: flex;
+        margin-bottom: 30px;
+    
+    }
+    .nutrition{
+        margin-top: -0.5px;
+        display: block;
+        width: 510px;
+        height: 430px;
+       
+    }
+   
+   
+    .ingredient ul{
+        margin-top: 20px;
+    }
+
+    .ingred{
+        margin-bottom: 100px;
+        top: 60px;
+    }
+    .ingred .icon{
+        margin-left: 50px;
+        left: -77px;
+        bottom: 10px;
+    }
+    table{
+        padding: 25px;
+        width: 500px;
+    }
+    .headerbutton {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        
+    } 
+
+}
+
